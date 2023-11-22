@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "./static/css/main.aa40268c.css",
+    "main.js": "./static/js/main.c15748d9.js",
+    "static/media/Grandstander-Bold.ttf": "./static/media/Grandstander-Bold.66f7232c1e5817084635.ttf",
+    "static/media/Grandstander-Regular.ttf": "./static/media/Grandstander-Regular.35ba22b5ef982f669b1f.ttf",
+    "index.html": "./index.html",
+    "main.aa40268c.css.map": "./static/css/main.aa40268c.css.map",
+    "main.c15748d9.js.map": "./static/js/main.c15748d9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aa40268c.css",
+    "static/js/main.c15748d9.js"
+  ]
+}
