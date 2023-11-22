@@ -1,0 +1,87 @@
+@font-face {
+  font-family: normal;
+  font-style: normal;
+  font-weight: 500;
+  src: local(Grandstander-Regular), url(Assets/fonts/Grandstander-Regular.ttf);
+}
+
+@font-face {
+  font-family: bold;
+  font-style: bold;
+  font-weight: 700;
+  src: local(Grandstander-Bold), url(Assets/fonts/Grandstander-Bold.ttf);
+}
+
+body {
+	margin: 0 auto;
+	font-family: normal, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+	  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+	  sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: #204BB5;
+	color: #F3EED9;
+	padding: 35px;
+	max-width: 80%;
+  
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+	font-family: bold, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+	  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+	  sans-serif;
+	margin: 0;
+	margin-bottom: 20px;
+	text-align: center;
+  }
+  
+  p {
+	text-align: center;
+	color: #F3EED9;
+  }
+  .text {
+	text-indent: 3%;
+	text-align: justify;
+	margin: 0 0 10px 0;
+	color: #F3EED9;
+  }
+  
+  li {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+  }
+  
+  a {
+	color: #FCB01E;
+	padding-left: 10px;
+  }
+  
+  footer {
+	padding-top: 20px;
+  }
+  
+  .link {
+	text-align: justify;
+	color: #F3EED9;
+  }  
+
+  @media screen and (max-width: 600px) {
+	body {
+	  padding: 40px 20px;
+	  max-width: 100%;
+	}
+	li {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	a {
+	padding-left: 0px;
+	}
+  }
