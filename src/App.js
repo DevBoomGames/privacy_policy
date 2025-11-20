@@ -1,4 +1,4 @@
-import "./App.css";
+import "./index.css";
 import { BrowserRouter } from "react-router-dom";
 
 const policy = [
@@ -53,7 +53,8 @@ function App() {
       </main>
       <footer>
         <p>
-          Copyright ©{new Date().getFullYear()} BOOM GAMES. All rights reserved.
+          Copyright ©{new Date().getFullYear()} DEV BOOM GAMES. All rights
+          reserved.
         </p>
       </footer>
     </BrowserRouter>
